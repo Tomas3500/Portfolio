@@ -1,0 +1,40 @@
+@mixin twiter {
+  transition:  all 0.5s ease;
+  border: 2px solid #00aced;
+  box-shadow:0 0 15px #00aced;
+}
+
+@mixin facebook {
+  border: 2px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+@mixin google {
+  border: 2px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+@mixin youtube  {
+  border: 2px solid #DD2410;
+  box-shadow: 0 0 15px #DD2410;
+  transition: all 0.5s ease;
+}
+
+@mixin btn-by-now{
+  margin-top: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 9px 55px;
+  transform: skewX(-10deg);
+  border: $border-btn;
+}
+
+@mixin btn-logBy{
+  background:#ecc465 ;
+  transition: 0.5s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+}

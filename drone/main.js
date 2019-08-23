@@ -1,13 +1,3 @@
-
-//scroll
-// var scrollSection = document.querySelector('#scroll-next-section');
-// console.log(scrollSection);
-// var n = window.scrollTop(function () {
-//     scrollSection.scrollTop;
-// });
-// console.log(n);
-
-//carusel
 var prev = document.querySelector('.prev-slid');
 var next = document.querySelector('.next-slid');
 var blockSlide = document.querySelectorAll('.slide-drone');

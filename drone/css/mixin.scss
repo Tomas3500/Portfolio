@@ -23,11 +23,11 @@
 }
 
 @mixin btn-by-now{
-  margin-top: 10px;
-  box-sizing: border-box;
+  margin-bottom: 130px;
+  margin-top: 24px;
   display: inline-block;
   text-transform: uppercase;
-  padding: 9px 55px;
+  padding: 9px 47px;
   transform: skewX(-10deg);
   border: $border-btn;
 }

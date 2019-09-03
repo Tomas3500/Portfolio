@@ -1,3 +1,5 @@
+
+//carusel
 var prev = document.querySelector('.prev-slid');
 var next = document.querySelector('.next-slid');
 var blockSlide = document.querySelectorAll('.slide-drone');

@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  padding-bottom: 120px;
+  padding-bottom: 41px;
   color: #FFFFFF;
   text-transform: uppercase;
   padding-top: 33px;
@@ -27,16 +27,15 @@ header {
 }
 
 p {
-  font-size: 18px;
+  font-size: 13px;
 }
 
 nav {
-  font-size: 18px;
-  font-weight: normal;
 
-  a:hover {
-    color: #ecc465;
-    transition: 0.5s ease;
+  a {
+    font-size: 13px;
+    letter-spacing: 0.04rem;
+    font-weight: normal;
   }
 }
 
@@ -52,21 +51,20 @@ nav a:nth-child(n+2) {
 
 .container {
   max-width: 1820px;
+  min-height: 700px;
   height: 100vh;
+
 }
 
 .logo a {
   font-weight: bold;
-  font-size: 36px;
+  font-size: 26px;
 }
 
 #btn {
-  margin-left: 27px;
-  border: $border-btn;
+  border: 1px solid white;
   transform: skewX(-10deg);
-  padding: 11px 37px;
-  text-align: center;
-  display: inline-block;
+  padding: 10px 37px;
 
   &:hover {
     @include btn-logBy;
@@ -75,14 +73,13 @@ nav a:nth-child(n+2) {
 
 .btn_login {
   transform: skewX(10deg);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   display: inline-block;
   text-transform: uppercase;
 }
 
 .fa-angle-double-down {
-  padding-top: 30px;
   display: block;
   width: 20px;
   height: 20px;
@@ -97,11 +94,11 @@ nav a:nth-child(n+2) {
 .header-title {
   text-transform: none;
   text-align: center;
-  padding-top: 86px;
+  padding-top: 100px;
 
   h1 {
-    margin: 0;
-    font-size: 120px;
+    margin: 0 0 15px 0;
+    font-size: 113px;
     font-weight: bold;
     letter-spacing: 3px;
   }
@@ -122,45 +119,47 @@ nav a:nth-child(n+2) {
 
 }
 
+.basket {
+  img {
+    width: 20px;
+    margin-right: 25px;
+  }
+}
+
 //section
 #section-light-drone {
   background: #1c1c1c url("../img/drone_s1.jpg") center no-repeat;
   background-size: cover;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
 }
 
 .title {
   color: #ffffff;
-  font-size: 42px;
+  font-size: 45px;
   font-weight: bold;
 }
 
 .light-drone {
   padding-left: 150px;
-  padding-top: 105px;
-  max-width: 708px;
-  text-align: left;
 
   p {
     font-size: 17px;
     color: #6e6e6e;
-    line-height: 42px;
   }
 
   a {
     color: #ffffff;
     display: inline-block;
-    text-align: center;
+    font-size: 12px;
     text-transform: uppercase;
     transform: skewX(5deg);
   }
 
   #read-more {
     display: inline-block;
-    text-align: center;
     text-transform: uppercase;
-    padding: 14px 25px;
-    transform: skewX(-5deg);
+    padding: 9px 35px;
+    transform: skewX(-10deg);
     border: 1px solid white;
 
     &:hover {
@@ -174,7 +173,7 @@ nav a:nth-child(n+2) {
 #section-slide {
   background: url("../img/bg-slide.jpg") center/cover;
   background-repeat: repeat-x;
-  padding-bottom: 150px;
+  padding-bottom: 73px;
   position: relative;
 
 }
@@ -264,10 +263,10 @@ nav a:nth-child(n+2) {
 .services {
   margin: 10px auto;
   text-align: center;
+  max-width: 700px;
 
   h2 {
     margin: 0;
-    text-align: center;
   }
 
   p {
@@ -317,60 +316,41 @@ nav a:nth-child(n+2) {
 }
 
 //section 4
-hr {
-  height: 2px;
-  border: 1px solid #313131;
-}
-
 .section-4 {
-  padding-bottom: 220px;
+  color: #ffffff;
+  position: relative;
 
   img {
-    max-width: 50%;
     display: block;
+    width: 45%;
+    position: absolute;
+    top: 50%;
+
   }
+
+  //background: url("../img/drone-s4.png") no-repeat;
+  //background-position: left center;
 }
 
-.specifications {
-  max-width: 800px;
-  color: #ffffff;
-  font-weight: bold;
-  text-align: center;
-  margin: 50px auto;
-
+.title {
+  margin-top: 108px;
+  max-width: 780px;
 
   h3 {
-    font-size: 40px;
-    margin: 0;
-  }
-
-  p {
-    display: inline-block;
-    color: #6e6e6e;
-    font-size: 18px;
-  }
-}
-
-.list-specif {
-  color: #ffffff;
-
-  ul {
-    padding: 0;
-    list-style: none;
-  }
-
-  li p {
-
-    font-size: 15px;
-    color: #6e6e6e
+    margin-bottom: 20px;
+    font-size: 35px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
   }
 
   span {
-    display: inline-block;
-    font-size: 25px;
-    font-weight: bold;
-    text-transform: uppercase;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    color: #6e6e6e;
+    line-height: 24px;
   }
+
 }
 
 //section-5

@@ -46,6 +46,10 @@ p {
   font-size: 13px;
 }
 
+hr {
+  background: #313131;
+}
+
 nav a {
   font-size: 13px;
   letter-spacing: 0.04rem;
@@ -201,6 +205,16 @@ nav a:nth-child(n+2) {
   display: block;
 }
 
+.btn-slide__prev,
+.btn-slide__next {
+  position: absolute;
+  top: 50%;
+}
+
+.btn-slide__next {
+  left: 93%;
+}
+
 .circle {
   width: 600px;
   height: 600px;
@@ -318,13 +332,7 @@ nav a:nth-child(n+2) {
 
 .section-4 {
   color: #ffffff;
-  position: relative;
-}
-.section-4 img {
-  display: block;
-  width: 45%;
-  position: absolute;
-  top: 50%;
+  padding-bottom: 90px;
 }
 
 .title {
@@ -344,12 +352,37 @@ nav a:nth-child(n+2) {
   line-height: 24px;
 }
 
+.section-4__img {
+  background: url("../img/drone-s4.png") no-repeat;
+  width: 750px;
+  height: 700px;
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+.section-4__description {
+  margin-top: 50px;
+}
+
+.list-info__description {
+  padding: 0;
+}
+
+.item_desc {
+  list-style: none;
+}
+.item_desc h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
 .section-5 {
   background: #ffffff;
 }
 
 .title-slide {
-  padding-top: 150px;
+  padding-top: 100px;
   max-width: 830px;
   font-weight: bold;
   text-align: center;

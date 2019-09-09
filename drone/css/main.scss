@@ -30,6 +30,10 @@ p {
   font-size: 13px;
 }
 
+hr {
+  background: #313131;
+}
+
 nav {
 
   a {
@@ -151,6 +155,7 @@ nav a:nth-child(n+2) {
     color: #6e6e6e;
 
   }
+
   .super-drone {
     margin-top: 42px;
     margin-bottom: 60px;
@@ -184,7 +189,6 @@ nav a:nth-child(n+2) {
   background-repeat: repeat-x;
   padding-bottom: 73px;
   position: relative;
-
 }
 
 .slid {
@@ -193,11 +197,20 @@ nav a:nth-child(n+2) {
 
 }
 
+.btn-slide__prev,
+.btn-slide__next {
+  position: absolute;
+  top: 50%;
+}
+
+.btn-slide__next {
+  left: 93%;
+}
+
 // buttom play
 .circle {
   width: 600px;
   height: 600px;
-  //padding: 250px;
   border-radius: 50%;
   border: 2px solid #ffffff;
   opacity: 0.7;
@@ -205,6 +218,7 @@ nav a:nth-child(n+2) {
   left: 29%;
   top: 13%;
 }
+
 
 .circle-small-center {
   width: 60%;
@@ -327,18 +341,7 @@ nav a:nth-child(n+2) {
 //section 4
 .section-4 {
   color: #ffffff;
-  position: relative;
-
-  img {
-    display: block;
-    width: 45%;
-    position: absolute;
-    top: 50%;
-
-  }
-
-  //background: url("../img/drone-s4.png") no-repeat;
-  //background-position: left center;
+  padding-bottom: 90px;
 }
 
 .title {
@@ -360,6 +363,30 @@ nav a:nth-child(n+2) {
   }
 
 }
+.section-4__img{
+  background: url("../img/drone-s4.png") no-repeat;
+  width: 750px;
+  height: 700px;
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+.no-position{
+  //position: static;
+}
+.section-4__description {
+  margin-top: 50px;
+}
+.list-info__description{
+  padding: 0;
+}
+.item_desc{
+  list-style: none;
+  h4{
+    font-size: 23px;
+    font-weight:bold;
+  }
+}
 
 //section-5
 .section-5 {
@@ -367,7 +394,7 @@ nav a:nth-child(n+2) {
 }
 
 .title-slide {
-  padding-top: 150px;
+  padding-top: 100px;
   max-width: 830px;
   font-weight: bold;
   text-align: center;

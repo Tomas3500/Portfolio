@@ -363,12 +363,12 @@ nav a:nth-child(n+2) {
   }
 
 }
-.section-4__img{
-  background: url("../img/drone-s4.png") no-repeat;
-  width: 750px;
-  height: 700px;
+
+.section-4-img__left{
+  width: 80%;
+  display: block;
   position: absolute;
-  top: 30%;
+  top: 5%;
   left: 0;
 }
 .no-position{
@@ -385,7 +385,12 @@ nav a:nth-child(n+2) {
   h4{
     font-size: 23px;
     font-weight:bold;
+    color: #fff;
   }
+}
+.color-item{
+  color: #424242;
+  font-size: 15px;
 }
 
 //section-5
@@ -394,7 +399,7 @@ nav a:nth-child(n+2) {
 }
 
 .title-slide {
-  padding-top: 100px;
+  padding-top: 50px;
   max-width: 830px;
   font-weight: bold;
   text-align: center;
@@ -415,6 +420,7 @@ nav a:nth-child(n+2) {
 //slider-drone
 .slideshow-container {
   position: relative;
+  overflow: hidden;
 }
 
 .prev-slid, .next-slid {
@@ -433,17 +439,18 @@ nav a:nth-child(n+2) {
 
 .slide-drone {
   display: none;
+  text-align: center;
 
   img {
     display: inline-block;
-    text-align: center;
-
+    width: 35%;
   }
 }
 
 .slide-drone:nth-child(1) {
   display: block;
 }
+
 
 .fa-arrow-left,
 .fa-arrow-right {
@@ -453,14 +460,12 @@ nav a:nth-child(n+2) {
 
 //section 6
 
-
 .section-6 {
   padding-bottom: 100px;
 }
 
 .looking-buy-drone {
   max-width: 600px;
-  margin: 0 auto;
   margin-top: 140px;
   margin-bottom: 95px;
   text-align: center;

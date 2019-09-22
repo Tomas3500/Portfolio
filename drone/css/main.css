@@ -545,6 +545,15 @@ nav a:nth-child(n+2) {
   text-transform: uppercase;
 }
 
+.info-top {
+  padding-top: 90px;
+}
+
+.footer__info {
+  display: flex;
+  align-items: center;
+}
+
 footer p {
   margin: 100px 0;
 }
@@ -574,11 +583,15 @@ footer p {
   color: white;
 }
 
+.footer__info {
+  width: 75%;
+}
+
 .social {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  margin-left: 20px;
+  margin-left: 5px;
   background: #ffffff;
   display: flex;
   justify-content: center;
@@ -614,22 +627,20 @@ footer p {
   transition: all 0.5s ease;
 }
 
-#phone {
-  font-size: 30px;
+#footer__phone {
+  font-size: 20px;
   font-weight: bold;
   color: #ffffff;
-  vertical-align: middle;
 }
 
-.center-info-email {
-  text-align: center;
-}
-.center-info-email a {
+.footer__email {
+  color: #5e5e5e;
   border-bottom: 1px solid #5e5e5e;
-  transition: 0.5s ease;
 }
-.center-info-email a:hover {
-  color: white;
+
+.info-top {
+  padding-top: 100px;
+  padding-bottom: 55px;
 }
 
 /*# sourceMappingURL=main.css.map */
